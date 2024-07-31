@@ -50,3 +50,9 @@ Algorithm:
 3. Finding union of two sets
 4. Finding intersection of two sets
 5. Finding difference of two sets
+
+Conclusion:
+Thus we have learnt to declare a 1D dimensional array, read the elements of the array and
+print the elements of the array. We have also implemented the following set operations on the
+arrays:
+1. Union, 2. Intersection, 3. Difference

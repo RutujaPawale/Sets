@@ -22,3 +22,17 @@ Python‟s built-in set type has the following characteristics:
 
 Input:
 Input 3 sets of students playing cricket, badminton and football.
+
+Output:
+Union
+A = { Dwiti, Sahil, Snigdha, Pranjul } B = { Sahil, Sidhant, Snigdha, Anisha}
+A U B = { Dwiti, Sahil, Snigdha, Pranjul, Sidhant, Anisha }
+Intersection
+A = { Dwiti, Sahil, Snigdha, Pranjul } B = { Sahil, Sidhant, Snigdha, Anisha}
+A c B = { Sahil, Snigdha}
+Difference
+A = { Dwiti, Sahil, Snigdha, Pranjul } B = { Sahil, Sidhant, Snigdha, Anisha}
+A - B = { Dwiti, Pranjul}
+Difference
+A = { Dwiti, Sahil, Snigdha, Pranjul } B = { Sahil, Sidhant, Snigdha, Anisha}
+B - A = {Sidhant, Anisha }

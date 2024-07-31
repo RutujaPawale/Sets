@@ -13,3 +13,9 @@ c) Number of students who play neither cricket nor badminton
 d) Number of students who play cricket and football but not badminton.
 (Note-Do not use SET builtin functions)
 
+Theory:
+Sets:
+Python‟s built-in set type has the following characteristics:
+-- Sets are unordered.
+-- Set elements are unique. Duplicate elements are not allowed.
+-- A set itself may be modified, but the elements contained in the set must be of an immutable type.

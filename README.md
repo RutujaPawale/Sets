@@ -25,16 +25,23 @@ Input 3 sets of students playing cricket, badminton and football.
 
 Output:
 Union
-A = { Dwiti, Sahil, Snigdha, Pranjul } B = { Sahil, Sidhant, Snigdha, Anisha}
+A = { Dwiti, Sahil, Snigdha, Pranjul } 
+B = { Sahil, Sidhant, Snigdha, Anisha}
 A U B = { Dwiti, Sahil, Snigdha, Pranjul, Sidhant, Anisha }
+
 Intersection
-A = { Dwiti, Sahil, Snigdha, Pranjul } B = { Sahil, Sidhant, Snigdha, Anisha}
-A c B = { Sahil, Snigdha}
+A = { Dwiti, Sahil, Snigdha, Pranjul }
+B = { Sahil, Sidhant, Snigdha, Anisha}
+A ∩ B = { Sahil, Snigdha}
+
 Difference
-A = { Dwiti, Sahil, Snigdha, Pranjul } B = { Sahil, Sidhant, Snigdha, Anisha}
+A = { Dwiti, Sahil, Snigdha, Pranjul }
+B = { Sahil, Sidhant, Snigdha, Anisha}
 A - B = { Dwiti, Pranjul}
+
 Difference
-A = { Dwiti, Sahil, Snigdha, Pranjul } B = { Sahil, Sidhant, Snigdha, Anisha}
+A = { Dwiti, Sahil, Snigdha, Pranjul }
+B = { Sahil, Sidhant, Snigdha, Anisha}
 B - A = {Sidhant, Anisha }
 
 Algorithm:

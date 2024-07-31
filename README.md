@@ -36,3 +36,10 @@ A - B = { Dwiti, Pranjul}
 Difference
 A = { Dwiti, Sahil, Snigdha, Pranjul } B = { Sahil, Sidhant, Snigdha, Anisha}
 B - A = {Sidhant, Anisha }
+
+Algorithm:
+1. Accept Student information/Sets
+2. Display set
+3. Finding union of two sets
+4. Finding intersection of two sets
+5. Finding difference of two sets

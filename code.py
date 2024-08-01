@@ -37,3 +37,10 @@ def criOrBad():
 		if i not in groupA:
 			print(i)
 
+def numNCriNBad():
+	print("\nNumber of students who neither play cricket nor Badminton:")
+	for i in groupC:
+		if i not in groupA:
+			if i not in groupB:
+				onlyGroupC.append(i)
+    	print(len(onlyGroupC))

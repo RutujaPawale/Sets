@@ -21,3 +21,12 @@ for i in range(c):
 	name=input("Enter name of the student:")
 	groupC.append(name)
 print("Group C =",groupC)
+
+def criOrBad():
+	print("\nList of students who plays either Cricket or Badminton but not Football :")
+	for i in groupA:
+		if i not in groupB:
+			print(i)
+	for i in groupB:
+		if i not in groupA:
+			print(i)

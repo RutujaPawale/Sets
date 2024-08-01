@@ -9,37 +9,37 @@ d) Number of students who play cricket and football but not badminton.
 (Note-Do not use SET builtin functions)
 
 Objectives:
-To introduce basics of Sets and its operations.
-To understand and implement the Array.
-To understand how to pass arrays as parameters to functions
+•	To introduce basics of Sets and its operations.
+•	To understand and implement the Array.
+•	To understand how to pass arrays as parameters to functions
 
 Theory:
 Sets:
 Python‟s built-in set type has the following characteristics:
--- Sets are unordered.
--- Set elements are unique. Duplicate elements are not allowed.
--- A set itself may be modified, but the elements contained in the set must be of an immutable type
+•	Sets are unordered.
+•	Set elements are unique. Duplicate elements are not allowed.
+•	A set itself may be modified, but the elements contained in the set must be of an immutable type
 
 Input:
 Input 3 sets of students playing cricket, badminton and football.
 
 Output:
-Union
+•	Union
 A = { Dwiti, Sahil, Snigdha, Pranjul } 
 B = { Sahil, Sidhant, Snigdha, Anisha}
 A U B = { Dwiti, Sahil, Snigdha, Pranjul, Sidhant, Anisha }
 
-Intersection
+•	Intersection
 A = { Dwiti, Sahil, Snigdha, Pranjul }
 B = { Sahil, Sidhant, Snigdha, Anisha}
 A ∩ B = { Sahil, Snigdha}
 
-Difference
+•	Difference
 A = { Dwiti, Sahil, Snigdha, Pranjul }
 B = { Sahil, Sidhant, Snigdha, Anisha}
 A - B = { Dwiti, Pranjul}
 
-Difference
+•	Difference
 A = { Dwiti, Sahil, Snigdha, Pranjul }
 B = { Sahil, Sidhant, Snigdha, Anisha}
 B - A = {Sidhant, Anisha }

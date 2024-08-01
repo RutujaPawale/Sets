@@ -44,3 +44,14 @@ def numNCriNBad():
 			if i not in groupB:
 				onlyGroupC.append(i)
     	print(len(onlyGroupC))
+	
+def numCriBad(groupC):
+	print("\nNumber of students who plays both Cricket and Football but not Badminton :")
+	for i in groupC :
+		if i in groupA:
+     			 print(len(i))
+
+criAndBad()
+criOrBad()
+numNCriNBad()
+numCriBad(groupC)
